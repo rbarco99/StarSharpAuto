@@ -1,8 +1,10 @@
 # StarSharpAuto
 La Historia de usuario sobre la que se estará trabajando en la aplicación web StarSharp es la siguiente:
+<pre>
 Feature: StarSharp meetings
-  As an admin
+As an admin
   I want to create a new meeting
+ 
   So that I can communicate with the company members
   
  Frente a esta funcionalidad se identifican múltiples escenarios como lo son:
@@ -20,7 +22,7 @@ Feature: StarSharp meetings
  
   Background:
     Given That the admin is authenticated in the StarSharp page
-    
+ 
   @scenario1
   Scenario: Creating a new meeting with a new Business Unit in StarSharp
     When the admin creates a new Business Unit
@@ -32,3 +34,4 @@ Feature: StarSharp meetings
     When the admin creates a new Business Unit
     And the admin schedule a new meeting
     Then an error message should be displayed
+ </pre>
