@@ -24,6 +24,8 @@ public class WelcomeMessage implements Question<Boolean> {
     public Boolean answeredBy(Actor actor) {
         String welcomeText = Text.of(WELCOME_MESSAGE).viewedBy(actor).asString();
         String expectedText = data.getStrWelcomeText();
+        System.out.println(welcomeText);
+        System.out.println(expectedText);
         return welcomeText.equals(expectedText);
     }
 }

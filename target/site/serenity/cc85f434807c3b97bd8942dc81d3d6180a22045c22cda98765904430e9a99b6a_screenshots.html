@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">choucair.utest</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="3a71f21e4916715d94b7389ba767ce5a95d382f0f014b603e7cecc02aea343ec.html">Starsharp Meetings</a></span>
+                > <span class="truncate-60"><a
+                    href="cc85f434807c3b97bd8942dc81d3d6180a22045c22cda98765904430e9a99b6a.html">Checking the error message when the end time is before the meeting start time </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-11-2021 15:19</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Starsharp Meetings</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As an admin
+I want to create a new meeting
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0218fdbc5052f69d3f1f3166bb7e2fb1aaba25c78a7c7745c14ed1ccd35fa8dc.html">Scenario2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Checking the error message when the end time is before the meeting start time
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="7efdd1d1db264769b15f736dfbfc73e4056dc32b4792201e5006b165829d7b03.png" title=" Given That the admin is authenticated in the StarSharp page" width="1366"/>
+                <img src="7efdd1d1db264769b15f736dfbfc73e4056dc32b4792201e5006b165829d7b03.png" title=" Ricardo open up star sharp" width="1366"/>
+                <img src="7efdd1d1db264769b15f736dfbfc73e4056dc32b4792201e5006b165829d7b03.png" title=" Ricardo opens the Star sharp home page" width="1366"/>
+                <img src="7efdd1d1db264769b15f736dfbfc73e4056dc32b4792201e5006b165829d7b03.png" title=" Ricardo open up star sharp (completed)" width="1366"/>
+                <img src="19bacb82e2cdca566442327147bc59e20b87b27f3764de23a23fc3d1a8008dd6.png" title=" Ricardo log in" width="1366"/>
+                <img src="19bacb82e2cdca566442327147bc59e20b87b27f3764de23a23fc3d1a8008dd6.png" title=" Ricardo enters 'admin' into Where you enter the username" width="1366"/>
+                <img src="a74cfe791c514f2e97c8165c7de4600e07234e48f115bee28a2ba5380a820356.png" title=" Ricardo enters 'serenity' into Where you enter the password" width="1366"/>
+                <img src="a24cdec1737292c08d07a2d8bf94157ceb193b927670ac3fc7f4e2deb99ab8a9.png" title=" Ricardo clicks on Button that allows the LogIn" width="1366"/>
+                <img src="a24cdec1737292c08d07a2d8bf94157ceb193b927670ac3fc7f4e2deb99ab8a9.png" title=" Ricardo log in (completed)" width="1366"/>
+                <img src="a24cdec1737292c08d07a2d8bf94157ceb193b927670ac3fc7f4e2deb99ab8a9.png" title=" Given That the admin is authenticated in the StarSharp page (completed)" width="1366"/>
+                <img src="2612cf29e043c88f633c46c803fbe5407dbfc2b6288beda24a0fe53e85d43f23.png" title=" When the admin creates a new Business Unit
+| businessUnitName |
+| StarSharp Unit3 |" width="1366"/>
+                <img src="2612cf29e043c88f633c46c803fbe5407dbfc2b6288beda24a0fe53e85d43f23.png" title=" Ricardo create" width="1366"/>
+                <img src="2612cf29e043c88f633c46c803fbe5407dbfc2b6288beda24a0fe53e85d43f23.png" title=" Ricardo clicks on where you click to see the organization options" width="1366"/>
+                <img src="ea73d1487d37701b96e4834f1d04334950ea043d5f92093484fca550499e33f7.png" title=" Ricardo clicks on where you click to see the Business unit" width="1366"/>
+                <img src="8cf9da47611e350c9aea0a9e2feab0cadb602bbe4ec7f55bdff0536078f92a45.png" title=" Ricardo clicks on where you click to create a new business unit" width="1366"/>
+                <img src="41775aaa768ff4d8b9f43522dab395d29e12926dec72d42c575bf87915c87b32.png" title=" Ricardo enters 'StarSharp Unit3' into where you enter the businnes name" width="1366"/>
+                <img src="0d1f890fdb956b6c1ab9a586283b0fea369fd0d25ae8535a96e3b7dc206a3e2c.png" title=" Ricardo clicks on where you click to create a new business unit" width="1366"/>
+                <img src="0d1f890fdb956b6c1ab9a586283b0fea369fd0d25ae8535a96e3b7dc206a3e2c.png" title=" Ricardo create (completed)" width="1366"/>
+                <img src="0d1f890fdb956b6c1ab9a586283b0fea369fd0d25ae8535a96e3b7dc206a3e2c.png" title=" When the admin creates a new Business Unit
+| businessUnitName |
+| StarSharp Unit3 | (completed)" width="1366"/>
+                <img src="3c9bbf897e8af9afea387f43772c5b78368055e7ce1ceec415461b6be24cd5fd.png" title=" And the admin schedule a new meeting
+| meetingName | meetingType | startDate | startHour | locationName | locationAddress | organizerFirstName | organizerLastName | organizerUser | organizerDomain | meetingNumber | endDate | endHour | unit |
+| MeetingAuto22 | Team Meeting | 12/23/2021 | 10:30 | Bogota offices | Cra10#20 11 | Ricardo | Rodriguez | rrodr12 | starsharpp.com | 4252 | 12/23/2021 | 10:10 | StarSharp Unit3 |" width="1366"/>
+                <img src="3c9bbf897e8af9afea387f43772c5b78368055e7ce1ceec415461b6be24cd5fd.png" title=" Ricardo schedule" width="1366"/>
+                <img src="3c9bbf897e8af9afea387f43772c5b78368055e7ce1ceec415461b6be24cd5fd.png" title=" Ricardo clicks on where you click to see the Meeting options" width="1366"/>
+                <img src="f761df853224faca523aff0f227d8b55468e00000ed5f8709aad584660ed4998.png" title=" Ricardo clicks on where you click to see the Meeting options" width="1366"/>
+                <img src="7cfd68c0c17b41da71f11dcc37c0c58de13d356bf0749095fb7c582672dd5739.png" title=" Ricardo clicks on where you click to create a new meeting" width="1366"/>
+                <img src="c7e7db76ca9dddc6eda4db932a7e47d779f92c3869aad5c9311e25a8b285bb1e.png" title=" Ricardo enters 'MeetingAuto22' into where you enter the meeting name" width="1366"/>
+                <img src="148a821044ec87b9f837be6bed17ff13dc9892214305312e966ba7c62c0dc49c.png" title=" Ricardo clicks on where you click to edit the meeting type" width="1366"/>
+                <img src="336969e91d59b87474b9df7e7051209743823c7852403e8db55b7f0a3a7253f2.png" title=" Ricardo enters 'Team Meeting' into where you enter the meeting name" width="1366"/>
+                <img src="6404a02d13c20293a242cf59a88cf785c900540184af8621bae99f287f2e0ba0.png" title=" Ricardo clicks on where you click to update the meeting type" width="1366"/>
+                <img src="a0edba247c8daf33ac762bd9ddb23830374f7e7def453743f7e95ce3bc906268.png" title=" Ricardo enters '12/23/2021' into where you enter the start date" width="1366"/>
+                <img src="c7433b56b5d54e438b272fb80b556a022dcffdc5047bdfbf283cde9798835adf.png" title=" Ricardo select 10:30 on where you select the start hour" width="1366"/>
+                <img src="ec96641bc7244f197f2e74cba08e6e80a9553a31cd10aab7b54ce2185d5150a2.png" title=" Ricardo clicks on where you click to add a new location" width="1366"/>
+                <img src="6c758a492730caeb70d27a7b9f309bb906256cbb94bc63a239f3a908372bfb44.png" title=" Ricardo enters 'Bogota offices' into where you enter the meeting Location" width="1366"/>
+                <img src="57fb706916e60e88a177bd68adbb89c914101713fb79033c1390aa4233b09f57.png" title=" Ricardo enters 'Cra10#20 11' into where you enter the meeting Address" width="1366"/>
+                <img src="872ebcffe4ff7d02569aca7e4ab2fe54aa6c1899b57322fc7f31a5ea40041b2c.png" title=" Ricardo clicks on where you click to save the address information" width="1366"/>
+                <img src="3c838b30227ddbb5bc50871b9e75eb038eebf8d950159506c3fff176928a9baf.png" title=" Ricardo clicks on where you click to enter the organizer info" width="1366"/>
+                <img src="4f0259c74b3e5316a5f5a3e4333f1ef5c20a43fac2650fe010126cd1a1741054.png" title=" Ricardo enters 'Ricardo' into where you enter the organizer first name" width="1366"/>
+                <img src="073a8421f3e856e738d5eedad11dc7983efb2a3d40911439ce99133b9130d83b.png" title=" Ricardo enters 'Rodriguez' into where you enter the organizer last name" width="1366"/>
+                <img src="0447363c30b9916dc14b67ce715028ee7f9468dd9a77feeaa721113fb78aad6f.png" title=" Ricardo enters 'rrodr12' into where you enter the organizer email" width="1366"/>
+                <img src="cf760a43982ab301f725dceeb7688ac560738246efe74c31030383ccc6e606b9.png" title=" Ricardo enters 'starsharpp.com' into where you enter the organizer email domain" width="1366"/>
+                <img src="de0e75bf442406b4e399f53aac40875bb53b262303a4680d4fcbf15cfcef2b49.png" title=" Ricardo clicks on where you click to save the organizer info" width="1366"/>
+                <img src="c0623aa881d90d89c46a7b1122cf2dbc5a1bf9392792afa52f7e439051bdc652.png" title=" Ricardo enters '4252' into where you enter the meeting number" width="1366"/>
+                <img src="402a7acf8f3fdcbc0029e6e0b866534cad16d3e3d0bfb2b388999d22662ea949.png" title=" Ricardo enters '12/23/2021' into where you enter the end date" width="1366"/>
+                <img src="5cd7f7c5eddfdc46ea29ae57bc3b791e6b1a9b5c9a9a664871ef6814a3c2e989.png" title=" Ricardo select 10:10 on where you select the end hour" width="1366"/>
+                <img src="86abf1dea5f0baa1428f724cee6bb245093afa39ed2911abdc2bb81bfe0f4924.png" title=" Ricardo clicks on where you click to add the unit" width="1366"/>
+                <img src="056c3a774776663848a3f60dae5258b05da9397f04a4b06778a14f500f496a3a.png" title=" Ricardo enters 'StarSharp Unit3' then hits [ENTER] into where you enter the unit" width="1366"/>
+                <img src="95c7efabb9209705afef4d6f6e749330ff3f54fbc3af2e744c9532fb40a279b7.png" title=" Ricardo clicks on where you click to save the meeting" width="1366"/>
+                <img src="95c7efabb9209705afef4d6f6e749330ff3f54fbc3af2e744c9532fb40a279b7.png" title=" Ricardo schedule (completed)" width="1366"/>
+                <img src="95c7efabb9209705afef4d6f6e749330ff3f54fbc3af2e744c9532fb40a279b7.png" title=" And the admin schedule a new meeting
+| meetingName | meetingType | startDate | startHour | locationName | locationAddress | organizerFirstName | organizerLastName | organizerUser | organizerDomain | meetingNumber | endDate | endHour | unit |
+| MeetingAuto22 | Team Meeting | 12/23/2021 | 10:30 | Bogota offices | Cra10#20 11 | Ricardo | Rodriguez | rrodr12 | starsharpp.com | 4252 | 12/23/2021 | 10:10 | StarSharp Unit3 | (completed)" width="1366"/>
+                <img src="217af5a7c8a97932facbbccceab30baa2cf9c923cf92fc66a7fa16c76969c82a.png" title=" Then an error message should be displayed" width="1366"/>
+                <img src="217af5a7c8a97932facbbccceab30baa2cf9c923cf92fc66a7fa16c76969c82a.png" title=" Then end date error" width="1366"/>
+                <img src="217af5a7c8a97932facbbccceab30baa2cf9c923cf92fc66a7fa16c76969c82a.png" title=" Then an error message should be displayed (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

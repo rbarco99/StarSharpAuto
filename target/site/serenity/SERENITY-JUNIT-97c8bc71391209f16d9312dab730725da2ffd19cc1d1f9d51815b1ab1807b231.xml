@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="StarSharp meetings" skipped="0" tests="2" time="71.55" timestamp="2021-11-20 03:18:56"><testcase name="Creating a new meeting with a new Business Unit in StarSharp"/><testcase name="Checking the error message when the end time is before the meeting start time"/></testsuite>
