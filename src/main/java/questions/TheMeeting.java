@@ -13,7 +13,6 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 import java.util.concurrent.TimeUnit;
 
 import static userinterface.Meetings.*;
-import static userinterface.WelcomePage.WELCOME_MESSAGE;
 
 public class TheMeeting implements Question<Boolean> {
     private StarSharpData starSharpData;

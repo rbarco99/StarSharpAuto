@@ -23,5 +23,5 @@ Feature: StarSharp meetings
       | StarSharp Unit3   |
     And the admin schedule a new meeting
       | meetingName       |meetingType  |startDate  |startHour|locationName  |locationAddress|organizerFirstName|organizerLastName|organizerUser|organizerDomain|meetingNumber|endDate   |endHour|unit              |
-      | MeetingAuto22     |Team Meeting |12/23/2021 |10:30    |Bogota offices|Cra10#20 11    |Ricardo           |Rodriguez        |rrodr12      |starsharpp.com |4252         |12/23/2021|10:10  |StarSharp Unit3   |
+      | FailMeeting       |Team Meeting |12/23/2021 |10:30    |Bogota offices|Cra10#20 11    |Ricardo           |Rodriguez        |rrodr12      |starsharpp.com |4252         |12/23/2021|10:10  |StarSharp Unit3   |
     Then an error message should be displayed

@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
-import static userinterface.LastStepPage.INPUT_CONFIRM_PASSWORD;
+
 import static userinterface.StarSharpHomePage.*;
 
 public class LogIn implements Task {
